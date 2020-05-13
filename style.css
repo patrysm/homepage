@@ -1,0 +1,37 @@
+body {
+        background: linear-gradient(90deg,#f9c802,#ec6c06);
+}
+
+p {
+    color: rgb(113, 233, 139);
+}
+header {
+    font-family: lazer84;
+    color: #f9c802;
+    text-shadow: 2px 2px 0 #013519;
+} 
+
+h1 {
+    color: lime;
+}
+
+h2 {
+    color: limegreen;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+footer {
+    color: #fafafa;
+}
+
+a {
+    color: darkred;
+    text-shadow: none;
+}
+
+.logo{
+    height:100px;
+}
