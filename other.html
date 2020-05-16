@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INNE</title>
-    <link href=style.css rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="html.html">HTML</a>
-            <a href="css.html">Style</a>
-            <a href="js.html">JavaScript</a>
-            <a href="other.html">Inne</a>
-        </nav>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="html.html">HTML</a>
+        <a class="navigation__link" href="css.html">Style</a>
+        <a class="navigation__link" href="js.html">JavaScript</a>
+        <a class="navigation__link" href="other.html">Inne</a>
+      </nav>
     </header>
-    <main>
-        <header id="top">
-            <h1>Patryk Michalak - Strona INNE</h1>
-            <img src="img/other.png" class="logo">
-        </header>
-        <section>
-            <h2>Co tu trafi?</h2>
-            <p>Inne treści niezwiązane z HTML, CSS i JS. </p>
-        </section>
-        <section>
-            <h2>Notatki INNE</h2>
-            <article>
-                <h3>Typy Notacji:</h3>
-                <p>uzupełnić typy - wielbłąd, wąż, kebab,  </p>
-            </article>
-            <article>
-                <h3>Co jest językiem programowania frontendu?</h3>
-                <p>Jest to JavaScript - w skrócie JS. Nie mylić z językiem Java!</p>
-            </article>
-        </section>
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="main__heading">Patryk Michalak - Strona INNE</h1>
+        <img class="main__logo" src="img/other.png" />
+      </header>
+      <section class="notes">
+        <h2 class="notes__heading">Co tu trafi?</h2>
+        <p class="notes__answer">Inne treści niezwiązane z HTML, CSS i JS.</p>
+      </section>
+      <section class="notes">
+        <h2 class="notes__heading">Notatki INNE</h2>
+        <article class="article">
+          <h3 class="article__question">Typy Notacji:</h3>
+          <p class="article__answer">uzupełnić typy - wielbłąd, wąż, kebab,</p>
+        </article>
+        <article class="article">
+          <h3 class="article__question">Czym jest GIT?</h3>
+          <p class="article__answer">
+            Jest to system kontroli wersji. Służy do śledzenia i wersjonowania
+            zmian.
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__question">Podstawowe komendy GIT</h3>
+          <h4 class="article__sub-question">git fetch</h4>
+          <p class="article__sub-answer">
+            służy do sprawdzenia różnicy między repozytorium zdalnym a lokalnym
+          </p>
+          <h4 class="article__sub-question">git push</h4>
+          <p class="article__sub-answer">
+            służy do wrzucenia zmian na zdalne repozytorium
+          </p>
+          <h4 class="article__sub-question">git commit -m "tytuł zmian"</h4>
+          <p class="article__sub-answer">
+            służy do dodania zmian lokalnych do repozytorium
+          </p>
+        </article>
+      </section>
     </main>
-    <footer>
-        Strona domowa Patryka Michalaka, treści są inspirowane szkoleniem WTF: Co ten frontend. 
-        <a href="top">Do góry</a>
+    <footer class="footer">
+      Strona domowa Patryka Michalaka, treści są inspirowane szkoleniem WTF: Co
+      ten frontend.
+      <br /><a class="footer__link" href="top">Do góry</a>
     </footer>
-</body>
-
+  </body>
 </html>
